@@ -30,13 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    These two methods are very similar. The forEach method can be used to change the original array, where as the map method can return a new array of the same size. And the original array stays the same.
+
 2. What is the difference between a function and a method?
+
+    A method is a code that is called an object that has name. Functions is a groupd of code that is associated with a given name. All functions are methods.
 
 3. What is closure?
 
+    It's a nested function that has variables related to the outer functions.
+
 4. Describe the four rules of the 'this' keyword.
 
+    - Window/Global Object Binding: In this global context, the value of "this" will be binded to console object.
+    - Implicit Binding: In this context, this is binded by the object preceding the dot. It refers to the object on the 
+  right side of this.
+    - New Binding: this in the context refers to the ojbject that is made in the contructor function. This refers to the
+  object that is specified by the this Pointer.
+    - Explicit binding: It is very similar to New Binding, but the object are changed to .call and .apply. The objects
+  are binded to the new ones.
+
 5. Why do we need super() in an extended class?
+
+    The function allows the new sub-class to call back the attributes that the sub-class estens.
+
 
 ## Project Set up
 
